@@ -1,5 +1,5 @@
-@import '@pages/MainPage/mainPage';
 @import url('https://fonts.cdnfonts.com/css/poppins');
+@import '@pages/MainPage/mainPage';
 
 body,
 html {
@@ -12,10 +12,13 @@ html {
   --primary-color: #26292E;
   --secondary-color: #2C2F34;
   --third-color: #A5A5A5;
-  --primary-text-color:#fff;
+  --primary-text-color: #fff;
+  --secondary-text-color: #B3B3B3;
   --primary-special-color: #50d950;
   --secondary-special-color: #ce870d;
-  color: var(--primary-text-color);
+  --font-size-med: 16px;
+  color: var(--secondary-text-color);
+
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
