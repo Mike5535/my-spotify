@@ -1,0 +1,1 @@
+export type GenreObj =  { name: string; imgPath: string };
