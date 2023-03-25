@@ -35,9 +35,10 @@ app.use(cors({
 // const DEFAULT_AVATAR = 'assets/img/users/default_user.jpg'
 // const ids = {};
 
-const genres = {
-	'Блюз': 'genres/blues.png',
-};
+const genres = [{
+	name: 'Блюз',
+	imgPath: 'genres/blues.png',
+}];
 
 ;
 
