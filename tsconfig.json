@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@utils/*":  ["src/utils/*"],
+      "@components/*":  ["src/components/*"],
+      "@config/*":  ["src/config/*"],
+      "@pages/*":  ["src/pages/*"],
+      "@assets/*":  ["src/assets/*"],
+      "@types/*":  ["src/types/*"],
+      "@stores/*":  ["src/stores/*"],
+    },
+    "target": "es2017",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"],
+}

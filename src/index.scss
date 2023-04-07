@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import '@pages/MainPage/mainPage';
+
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: overlay;
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0 0 0 / 0%);
+  --primary-color: #26292E;
+  --secondary-color: #2C2F34;
+  --third-color: #A5A5A5;
+  --primary-text-color: #fff;
+  --secondary-text-color: #B3B3B3;
+  --primary-special-color: #50d950;
+  --secondary-special-color: #ce870d;
+  --font-size-med: 16px;
+  color: var(--secondary-text-color);
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+a,
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
